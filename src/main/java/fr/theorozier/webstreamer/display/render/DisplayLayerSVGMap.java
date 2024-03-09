@@ -14,8 +14,8 @@ public class DisplayLayerSVGMap extends DisplayLayerMap<DisplayLayerSVGImage.SVG
 	@NotNull
 	protected DisplayLayerSVGImage.SVGOptions getLayerKey(Key key) {
 		return new DisplayLayerSVGImage.SVGOptions(
-				key.display().getWidth(),
-				key.display().getHeight()
+			key.display().getWidth(),
+			key.display().getHeight()
 		);
 	}
 

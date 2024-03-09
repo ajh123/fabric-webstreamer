@@ -101,7 +101,7 @@ public class DisplayBlock extends BlockWithEntity {
                 case WEST -> SHAPE_WEST;
                 default -> null;
             };
-			case FLOOR -> SHAPE_FLOOR;
+            case FLOOR -> SHAPE_FLOOR;
             case CEILING -> SHAPE_CEILING;
         };
     }
